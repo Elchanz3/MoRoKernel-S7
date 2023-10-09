@@ -9,7 +9,7 @@
 # -----
 export ARCH=arm64
 export SUBARCH=arm64
-export BUILD_CROSS_COMPILE=/home/moro/kernel/toolchains/ubertc-6.5/bin/aarch64-linux-android-
+export BUILD_CROSS_COMPILE=/home/chanz22/Downloads/gcc-linaro-6.5.0/bin/aarch64-linux-gnu-
 export CROSS_COMPILE=$BUILD_CROSS_COMPILE
 export BUILD_JOB_NUMBER=`grep processor /proc/cpuinfo|wc -l`
 
@@ -30,10 +30,10 @@ DEFCONFIG_S7FLAT=moro-flat_defconfig
 DEFCONFIG_N7FE=moro-grace_defconfig
 
 
-K_VERSION="v8.8.1"
-K_SUBVER="8"
+K_VERSION="v1.0.0"
+K_SUBVER="1"
 K_BASE="CUA1"
-K_NAME="MoRoKernel"
+K_NAME="PuppyKernel-chanz22"
 export KBUILD_BUILD_VERSION="1"
 
 
